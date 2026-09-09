@@ -174,8 +174,9 @@ ul{ margin:0; padding:0; list-style:none; }
   z-index:2;
   right: 2rem;
   bottom: 2.5rem;
-  color: var(--white);
   display:flex;
+  white-space:nowrap;
+  color: var(--white);
   flex-direction:row;
   align-items:center;
   gap:0.55rem;
@@ -820,7 +821,11 @@ ul{ margin:0; padding:0; list-style:none; }
   }
   .navbar{ padding: 1.1rem 1.25rem; background: rgba(19,18,16,0.55); backdrop-filter: blur(8px); }
   .navbar.scrolled{ padding: 0.85rem 1.25rem; }
-  .scroll-hint{ right: 1.25rem; bottom: 2rem; }
+  .scroll-hint{
+    display:flex;
+    right: 1.25rem;
+    bottom: 2rem;
+  }
   .nav-links{
     position: fixed;
     top: 0; right: 0;
@@ -937,7 +942,12 @@ ul{ margin:0; padding:0; list-style:none; }
   .display{ font-size: 2.1rem; }
   .heading{ font-size: 1.75rem; }
   .big-stat{ font-size: 3.2rem; }
-  .scroll-hint{ display:none; }
+  .scroll-hint{
+    right: 1rem;
+    bottom: 1.5rem;
+    font-size: 1rem;
+  }
+  .scroll-hint::after{ font-size: 1.5rem; }
   .big-numeral{ font-size: 5rem; margin-bottom: -1.5rem; }
 }
 
