@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PETAR Explorer — Explore a Natureza</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar" id="navbar">
+  <a href="#hero" class="brand">
+    <img src="assets/logo.png" alt="PETAR Explorer" class="brand-logo">
+    <span>Petar Explorer</span>
+  </a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#hero">Início</a>
+    <a href="#roteiros">Roteiros</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- WHATSAPP FLUTUANTE -->
+<a href="https://wa.me/?text=Ol%C3%A1%2C%20quero%20conhecer%20os%20roteiros%20do%20PETAR." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Falar pelo WhatsApp">
+  <svg viewBox="0 0 32 32" width="28" height="28" fill="currentColor" aria-hidden="true">
+    <path d="M16.01 3C9.38 3 4 8.38 4 15.01c0 2.3.63 4.44 1.72 6.29L4 29l7.9-1.66a11.9 11.9 0 0 0 4.11.73h.01c6.62 0 12-5.38 12-12.01C28.02 8.38 22.64 3 16.01 3zm0 21.7h-.01a9.7 9.7 0 0 1-4.94-1.36l-.35-.21-4.69.99.99-4.58-.23-.37a9.66 9.66 0 0 1-1.49-5.16c0-5.35 4.36-9.7 9.72-9.7 2.6 0 5.04 1.01 6.87 2.85a9.63 9.63 0 0 1 2.85 6.86c0 5.35-4.37 9.68-9.72 9.68zm5.32-7.27c-.29-.15-1.72-.85-1.99-.95-.27-.1-.46-.15-.66.15-.19.29-.75.95-.92 1.15-.17.19-.34.22-.63.07-.29-.15-1.22-.45-2.32-1.43-.86-.76-1.44-1.71-1.61-2-.17-.29-.02-.45.13-.6.13-.13.29-.34.44-.51.15-.17.19-.29.29-.48.1-.19.05-.36-.02-.51-.07-.15-.66-1.58-.9-2.17-.24-.57-.48-.49-.66-.5h-.56c-.19 0-.5.07-.77.36-.26.29-1.01.99-1.01 2.41 0 1.42 1.04 2.79 1.18 2.98.15.19 2.04 3.11 4.94 4.36.69.3 1.23.48 1.65.61.69.22 1.32.19 1.82.11.55-.08 1.72-.7 1.96-1.38.24-.68.24-1.26.17-1.38-.07-.12-.26-.19-.55-.34z"/>
+  </svg>
+</a>
+
+<!-- HERO -->
+<section class="section hero" id="hero" style="background-image:url('assets/hero-mountain.jpg')">
+  <div class="hero-overlay"></div>
+  <div class="section-inner hero-inner">
+    <div class="hero-bottom">
+      <h1 class="display">Existem lugares que a natureza levou milhões de anos para criar.</h1>
+      <p class="lede light">Sob a Mata Atlântica, rios atravessam montanhas, cavernas escondem mundos inteiros e cada trilha revela uma nova forma de enxergar a natureza.</p>
+      <a href="https://wa.me/?text=Ol%C3%A1%2C%20quero%20come%C3%A7ar%20a%20explorar%20o%20PETAR." class="btn btn-ghost" target="_blank" rel="noopener noreferrer">Começar a explorar</a>
+    </div>
+    <span class="scroll-hint">Role para descobrir</span>
+  </div>
+</section>
+
+<!-- AQUI A AVENTURA -->
+<section class="section paper centered" id="sobre">
+  <div class="section-inner narrow">
+    <h2 class="heading serif-italic">Aqui, a aventura não foi inventada.<br><span class="accent">Foi esculpida pela natureza.</span></h2>
+    <p class="body-text">Água, pedra e floresta trabalharam juntas durante milhares de anos para criar um dos cenários naturais mais impressionantes do Brasil.</p>
+    <p class="body-text italic">O resultado está acima, abaixo e ao redor de quem decide explorar.</p>
+  </div>
+</section>
+
+<!-- MARCA -->
+<section class="section white centered brand-section">
+  <div class="section-inner">
+    <p class="stack-words">
+      <span>Explore.</span>
+      <span>Descubra.</span>
+      <span class="accent">Conecte-se.</span>
+    </p>
+    <img src="assets/logo.png" alt="PETAR Explorer" class="mark-logo">
+    <p class="tag">Petar Explorer, explore a natureza</p>
+  </div>
+</section>
+
+<!-- EXPLORE A REGIÃO — mosaico editorial -->
+<section class="section white" id="regiao">
+  <div class="section-inner wide">
+    <h3 class="section-title">Explore a região</h3>
+    <div class="mosaic">
+      <div class="mosaic-cell mosaic-big" style="background-image:url('assets/card-cavernas.jpg')">
+        <div class="mosaic-fade"></div>
+        <div class="mosaic-text">
+          <h4>Cavernas</h4>
+          <p>O PETAR abriga algumas das mais belas cavernas do Brasil, com formações naturais impressionantes e paisagens únicas em meio à Mata Atlântica.</p>
+        </div>
+      </div>
+      <div class="mosaic-cell" style="background-image:url('assets/card-cachoeiras.jpg')">
+        <div class="mosaic-fade"></div>
+        <div class="mosaic-text">
+          <h4>Cachoeiras</h4>
+          <p>Cachoeiras, quedas d’água e poços cristalinos que revelam cenários naturais de beleza única.</p>
+        </div>
+      </div>
+      <div class="mosaic-cell" style="background-image:url('assets/card-trilhas.jpg')">
+        <div class="mosaic-fade"></div>
+        <div class="mosaic-text">
+          <h4>Trilhas</h4>
+          <p>Pontes de madeira e samambaias acompanham o som do rio pelo caminho.</p>
+        </div>
+      </div>
+      <div class="mosaic-cell mosaic-wide" style="background-image:url('assets/card-cultura.jpg')">
+        <div class="mosaic-fade"></div>
+        <div class="mosaic-text">
+          <h4>Cultura local</h4>
+          <p>Sabores típicos e comunidades quilombolas e caiçaras preservam tradições que atravessam gerações.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIÊNCIAS -->
+<section class="section paper centered" id="experiencias">
+  <div class="section-inner narrow">
+    <h3 class="section-title left serif-italic">Experiências</h3>
+    <ul class="exp-list">
+      <li><strong>Espeleologia</strong><span>Entre em cavernas como a Casa de Pedra e a do Couto, guiado por quem conhece cada passagem.</span></li>
+      <li><strong>Trilhas</strong><span>Cruze pontes de madeira e trechos de mata fechada entre os núcleos do PETAR.</span></li>
+      <li><strong>Cachoeiras</strong><span>Mergulhe em poços de água limpa formados pelo Rio Ribeira e seus afluentes.</span></li>
+      <li><strong>Rafting</strong><span>Desça correntezas do Rio Ribeira em botes, com equipamento e guia especializado.</span></li>
+      <li><strong>Biodiversidade</strong><span>Observe aves, bromélias e espécies que só existem nesse trecho da Mata Atlântica.</span></li>
+      <li><strong>Cultura</strong><span>Conheça comunidades quilombolas e caiçaras que vivem no Vale do Ribeira há gerações.</span></li>
+    </ul>
+    <p class="experience-intro">E, claro, muitas outras<br><span>experiências incríveis esperam por você.</span></p>
+    <a href="https://wa.me/?text=Ol%C3%A1%2C%20quero%20conhecer%20as%20experi%C3%AAncias%20dispon%C3%ADveis%20no%20PETAR." class="btn btn-solid experience-cta" target="_blank" rel="noopener noreferrer">Quero conhecer as experiências</a>
+  </div>
+</section>
+
+<!-- NOSSOS ROTEIROS INTRO -->
+<section class="section dark-green centered" id="roteiros" style="background-image:url('assets/ourogrosso-cave.jpg')">
+  <div class="dark-overlay"></div>
+  <div class="section-inner">
+    <h2 class="heading light serif-italic">Nossos roteiros</h2>
+    <p class="lede light">Cada núcleo do PETAR tem uma personalidade própria.</p>
+  </div>
+</section>
+
+<!-- NÚCLEO SANTANA -->
+<section class="section white split" id="nucleo-santana">
+  <div class="split-text">
+    <div class="split-text-content">
+      <span class="kicker">Núcleo Santana</span>
+      <h3 class="heading">Onde o PETAR começa a revelar suas profundezas.</h3>
+      <p class="body-text">O principal núcleo de visitação do PETAR reúne algumas das cavernas mais conhecidas da região, além de trilhas, rios e cachoeiras. É aqui que está a Caverna de Santana, a maior do PETAR e uma das maiores do Estado de São Paulo, com mais de 9 quilômetros de extensão.</p>
+      <p class="tags">Cavernas, Rio Betari, Cachoeiras, Formações milenares</p>
+      <a href="https://wa.me/?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20roteiro%20do%20N%C3%BAcleo%20Santana." class="link-whatsapp" target="_blank" rel="noopener noreferrer">Falar sobre este roteiro</a>
+    </div>
+  </div>
+  <div class="split-image" style="background-image:url('assets/santana-caver.jpg')"></div>
+</section>
+
+<!-- CASA DE PEDRA -->
+<section class="section stat-section centered" style="background-image:url('assets/hero-mountain.jpg')">
+  <div class="dark-overlay"></div>
+  <div class="section-inner">
+    <span class="kicker light">Núcleo Casa de Pedra</span>
+    <h3 class="heading light">Diante de uma entrada que parece não ter fim.</h3>
+    <p class="lede light">A Casa de Pedra abriga a maior abertura vertical de caverna do mundo. Cercada pela Mata Atlântica, seu gigantesco portal impressiona pela escala e transforma a chegada em parte da própria experiência.</p>
+    <p class="big-stat">+197 metros</p>
+    <p class="big-stat-label">de altura</p>
+    <p class="lede light italic small">Uma dimensão equivalente a aproximadamente cinco Cristos Redentores empilhados.</p>
+    <p class="statement light">Não é apenas sobre chegar. <span class="accent">É sobre entender o tamanho do lugar onde você chegou.</span></p>
+    <a href="https://wa.me/?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20roteiro%20da%20Casa%20de%20Pedra." class="link-whatsapp light" target="_blank" rel="noopener noreferrer">Falar sobre este roteiro</a>
+  </div>
+</section>
+
+<!-- NÚCLEO OURO GROSSO -->
+<section class="section white split reverse" id="nucleo-ouro-grosso">
+  <div class="split-image" style="background-image:url('assets/ourogrosso-cave.jpg')"></div>
+  <div class="split-text">
+    <div class="split-text-content">
+      <span class="kicker">Núcleo Ouro Grosso</span>
+      <h3 class="heading">Aqui, a água faz parte do caminho.</h3>
+      <p class="body-text">O Ouro Grosso é para quem quer sentir a aventura de perto. Sua caverna é conhecida pelas cachoeiras internas, poços profundos e trechos onde a água acompanha cada passo do percurso — uma das experiências mais esportivas da região.</p>
+      <p class="tags">Cachoeiras internas, Poços, Adrenalina, Exploração</p>
+      <a href="https://wa.me/?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20roteiro%20do%20N%C3%BAcleo%20Ouro%20Grosso." class="link-whatsapp" target="_blank" rel="noopener noreferrer">Falar sobre este roteiro</a>
+    </div>
+  </div>
+</section>
+
+<!-- NÚCLEO CABOCLOS -->
+<section class="section white split" id="nucleo-caboclos">
+  <div class="split-text">
+    <div class="split-text-content">
+      <span class="kicker">Núcleo Caboclos</span>
+      <h3 class="heading">Mais longe. Mais silencioso. Mais selvagem.</h3>
+      <p class="body-text">Localizado na região mais elevada e central do parque, o Núcleo Caboclos apresenta um lado diferente do PETAR: mais distante do mundo urbano e mais próximo da Mata Atlântica. A Caverna Temimina se destaca pelas dolinas, aberturas naturais no teto da caverna.</p>
+      <p class="tags">Caverna Temimina, Mata Atlântica, Trilhas, Exploração</p>
+      <a href="https://wa.me/?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20roteiro%20do%20N%C3%BAcleo%20Caboclos." class="link-whatsapp" target="_blank" rel="noopener noreferrer">Falar sobre este roteiro</a>
+    </div>
+  </div>
+  <div class="split-image" style="background-image:url('assets/caboclos-cave.jpg')"></div>
+</section>
+
+<!-- BIODIVERSIDADE — várias aves, em grade limpa (sem recorte decorativo, sem dominar a tela) -->
+<section class="section white split" id="biodiversidade">
+  <div class="split-text">
+    <div class="split-text-content">
+      <span class="kicker">Biodiversidade</span>
+      <h3 class="heading">Nem toda descoberta está debaixo da terra.</h3>
+      <p class="lede italic">Antes de entrar em uma caverna, vale a pena olhar para cima.</p>
+      <p class="body-text">Entre o movimento das folhas e o som da água, cores surgem onde menos se espera — cada ave faz parte de um ecossistema que transforma a viagem em algo maior.</p>
+    </div>
+  </div>
+  <div class="bird-collage">
+    <img src="assets/bird-vulture.jpg" alt="Urubu-rei observado no PETAR" class="bird bird-1">
+    <img src="assets/bird-parrot.jpg" alt="Papagaio-verde na Mata Atlântica" class="bird bird-2">
+    <img src="assets/bird-crested.jpg" alt="Ave de crista vermelha na Mata Atlântica" class="bird bird-3">
+  </div>
+</section>
+
+<!-- FULL BLEED CAVE — "chuveiro natural", largura total, sem cortar, com legenda sobre a foto -->
+<section class="section full-bleed immersive-transition">
+  <div class="full-bleed-caption-wrap">
+    <img src="assets/cave-lightshaft.jpg" alt="Chuveiro natural: feixe de luz caindo dentro de uma caverna do PETAR">
+    <div class="full-bleed-fade"></div>
+    <h3 class="heading light right serif-italic full-bleed-caption">A beleza que se revela nas profundezas do PETAR.</h3>
+  </div>
+</section>
+
+<!-- O DESCONHECIDO -->
+<section class="section centered-left immersive-transition" style="background-image:url('assets/desconhecido-pool.jpg')">
+  <div class="dark-overlay"></div>
+  <div class="section-inner">
+    <h3 class="heading light">O desconhecido está mais perto do que você imagina.</h3>
+    <p class="lede light">Descubra um dos maiores patrimônios naturais do Brasil.</p>
+    <a href="https://wa.me/?text=Ol%C3%A1%2C%20quero%20conhecer%20o%20PETAR%20e%20receber%20mais%20informa%C3%A7%C3%B5es." class="btn btn-ghost" target="_blank" rel="noopener noreferrer">Conheça o PETAR</a>
+  </div>
+</section>
+
+<!-- GALERIA — mosaico assimétrico, aves integradas -->
+<section class="section white" id="galeria">
+  <div class="section-inner wide">
+    <h3 class="section-title left serif-italic">O PETAR não cabe em uma única paisagem.</h3>
+    <div class="masonry">
+      <img src="assets/gallery-canyon.jpg" alt="Canyon esculpido pela água no PETAR" class="m-item">
+      <img src="assets/bird-vulture.jpg" alt="Urubu-rei observado no PETAR" class="m-item">
+      <img src="assets/gallery-town.jpg" alt="Vista aérea do Vale do Ribeira" class="m-item">
+      <img src="assets/santana-caver.jpg" alt="Espeleologia na Caverna de Santana" class="m-item">
+      <img src="assets/bird-parrot.jpg" alt="Papagaio-verde na Mata Atlântica" class="m-item">
+      <img src="assets/gallery-cave-dark.jpg" alt="Interior de caverna no PETAR" class="m-item">
+      <img src="assets/gallery-rafting.jpg" alt="Rafting no Rio Ribeira" class="m-item">
+      <img src="assets/gallery-crystal.jpg" alt="Formação mineral em caverna do PETAR" class="m-item">
+      <img src="assets/desconhecido-pool.jpg" alt="Poço d'água dentro de caverna" class="m-item">
+      <img src="assets/bird-crested.jpg" alt="Ave da Mata Atlântica" class="m-item">
+      <img src="assets/gallery-bird-flying.jpg" alt="Ave em voo no PETAR" class="m-item">
+      <img src="assets/gallery-cave-brown.jpg" alt="Formação rochosa em caverna" class="m-item">
+      <img src="assets/beleza-caver.jpg" alt="Grande salão de uma caverna do PETAR" class="m-item">
+    </div>
+  </div>
+</section>
+
+<!-- VOCÊ ESCOLHE -->
+<section class="section white split bleed" id="experiencia-escolha">
+  <div class="split-image" style="background-image:url('assets/forest-rays.jpg')"></div>
+  <div class="split-text">
+    <div class="split-text-content">
+      <h3 class="heading">Você escolhe a experiência.<br><span class="accent">Nós ajudamos a encontrar o caminho.</span></h3>
+      <p class="body-text">A PETAR Explorer aproxima visitantes das experiências e dos profissionais que conhecem a região. Apresentamos os roteiros, ajudamos você a entender as possibilidades e facilitamos o contato com quem transforma cada passeio em uma experiência segura e bem orientada.</p>
+    </div>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section class="section paper centered testimonial-section">
+  <div class="section-inner narrow">
+    <span class="quote-mark">&ldquo;</span>
+    <h3 class="heading serif-italic">Alguns lugares você visita.<br><span class="accent">Outros ficam com você.</span></h3>
+    <p class="body-text italic testimonial-empty">As primeiras histórias de quem já explorou o PETAR com a gente estão a caminho. Em breve, este espaço traz relatos reais de quem viveu a experiência.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section white" id="faq">
+  <div class="section-inner narrow">
+    <h3 class="section-title left serif-italic">Antes de explorar, algumas perguntas podem ajudar.</h3>
+    <div class="faq-list">
+      <details class="faq-item" open>
+        <summary>Como escolher o roteiro ideal?</summary>
+        <p>Entre em contato conosco para conhecer as opções disponíveis e encontrar a experiência ideal.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Preciso ter experiência para participar?</summary>
+        <p>Existem diferentes tipos de experiências. Podemos orientar você antes de planejar sua aventura.</p>
+      </details>
+      <details class="faq-item">
+        <summary>O que devo levar?</summary>
+        <p>As recomendações variam de acordo com o roteiro escolhido. Fale conosco para saber mais.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Como faço para reservar?</summary>
+        <p>Entre em contato conosco para planejar sua experiência no PETAR.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Posso tirar dúvidas antes de escolher um passeio?</summary>
+        <p>Sim! Estamos disponíveis para ajudar você a encontrar o roteiro ideal.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section class="section paper" id="contato">
+  <div class="section-inner">
+    <h3 class="section-title left serif-italic">Fale com a PETAR Explorer</h3>
+    <p class="contact-intro">Conte o que você procura e tire suas dúvidas sobre os roteiros. Nossa equipe ajuda você a encontrar a melhor experiência.</p>
+    <div class="contact-grid">
+      <form class="contact-form" onsubmit="return false;">
+        <input type="text" placeholder="Seu nome" required>
+        <input type="tel" placeholder="WhatsApp" required>
+        <textarea placeholder="Mensagem" rows="3" required></textarea>
+        <button type="submit" class="btn btn-solid">Enviar mensagem</button>
+      </form>
+      <div class="map-placeholder">
+        <span>Adicionar localização do Google Maps</span>
+        <svg width="30" height="40" viewBox="0 0 32 42" fill="none"><path d="M16 0C7.16 0 0 7.16 0 16c0 12 16 26 16 26s16-14 16-26c0-8.84-7.16-16-16-16z" fill="#16352A"/></svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA STATEMENT -->
+<section class="section white centered small-section">
+  <div class="section-inner">
+    <h3 class="heading serif-italic">Não é apenas um destino.<br><span class="accent">É uma experiência para ser vivida.</span></h3>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="section dark centered" style="background-image:url('assets/hero-mountain.jpg')">
+  <div class="dark-overlay"></div>
+  <div class="section-inner">
+    <h2 class="heading light serif-italic">O próximo caminho pode começar agora.</h2>
+    <p class="lede light">Conte o que você procura. Nós ajudamos a encontrar a experiência ideal.</p>
+    <a href="https://wa.me/?text=Ol%C3%A1%2C%20quero%20falar%20com%20a%20PETAR%20Explorer%20sobre%20uma%20experi%C3%AAncia%20no%20PETAR." class="btn btn-solid" target="_blank" rel="noopener noreferrer">Falar com a PETAR Explorer</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <a href="#hero" class="brand">
+    <img src="assets/logo.png" alt="PETAR Explorer" class="brand-logo">
+    <span>Petar Explorer</span>
+  </a>
+  <nav class="nav-links">
+    <a href="#hero">Início</a>
+    <a href="#roteiros">Roteiros</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <p class="copyright">© 2026 PETAR Explorer</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
