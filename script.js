@@ -40,16 +40,3 @@ faqItems.forEach(item => {
   });
 });
 
-const revealItems = document.querySelectorAll('.section:not(.hero):not(.immersive-transition)');
-const revealObserver = new IntersectionObserver((entries, observer) => {
-  entries.forEach(entry => {
-    if (!entry.isIntersecting) return;
-    entry.target.classList.add('is-visible');
-    observer.unobserve(entry.target);
-  });
-}, { threshold: 0.12 });
-
-revealItems.forEach(item => {
-  item.classList.add('reveal-on-scroll');
-  revealObserver.observe(item);
-});
